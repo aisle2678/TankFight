@@ -1,0 +1,83 @@
+Life
+{
+  zorder 200
+
+    container Panel(Life/Panel)
+    {
+      metrics_mode relative
+
+	left 0.01
+	top 0.01
+	width 0.15
+	height 0.05
+	material BlueSemiTran
+
+	element TextArea(Life/Panel/Text)
+	{
+	  metrics_mode relative
+
+	    left 0.03
+	    top 0.005
+	    font_name BlueHighwayBig
+	    char_height 0.05
+	    colour 1 1 1
+	    caption Sample Text.
+	}
+    }
+}
+
+Remain
+{
+  zorder 200
+
+    container Panel(Remain/Panel)
+    {
+      metrics_mode relative
+
+	left 0.4
+	top 0.01
+	width 0.2
+	height 0.05
+	material BlueSemiTran
+
+	element TextArea(Remain/Panel/Text)
+	{
+	  metrics_mode relative
+
+	    left 0.02
+	    top 0.005
+	    font_name BlueHighwayBig
+	    char_height 0.05
+	    colour 1 1 1
+	    caption Sample Text.
+	}
+    }
+}
+
+Weapon
+{
+  zorder 200
+
+    container Panel(Weapon/Panel)
+    {
+      metrics_mode relative
+
+	left 0.79
+	top 0.01
+	width 0.2
+	height 0.05
+	material BlueSemiTran
+
+	element TextArea(Weapon/Panel/Text)
+	{
+	  metrics_mode relative
+
+	    left 0.03
+	    top 0.005
+	    font_name BlueHighwayBig
+	    char_height 0.05
+	    colour 1 1 1
+	    caption Sample Text.
+	}
+    }
+}

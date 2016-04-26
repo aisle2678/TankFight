@@ -1,0 +1,13 @@
+Dependencies: Bullet physics engine, irrKlang sound library
+
+Compile: Use .sln file
+
+Features: Integrated with Bullet physics engine,  nice mini map, 'smart' AIs
+
+How to play:
+	Use 'W' to move forward, 'S' to move backward, 'A' to rotate to left, 'D' to rotate to right.
+	'Space' to spawn mines, 'left mouse button' to fire a shell, 'right mouse button' to fire a missle.
+
+	Shells will explode when it hitted anything.
+	Missles only explode when it hitted AI tanks, and will bounce back when it hitted anything else. So fire a missle will guarantee an AI tank be killed.
+	Enjoy :)
